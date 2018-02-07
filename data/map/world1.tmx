@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="16" tileheight="16" backgroundcolor="#000000" nextobjectid="27">
+ <tileset firstgid="1" name="world1" tilewidth="16" tileheight="16" tilecount="70" columns="10">
+  <image source="../img/world1/world1.png" width="160" height="112"/>
+ </tileset>
+ <layer name="background" width="16" height="14">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAAAAAAAAAAAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAAAAAAAAAAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAAAAAAAAAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAAAAAAAAAAAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAAAAAAAAAAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAAAAAAAAAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAAAAAAAAAAAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAAAAAAAAAAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="environment" width="16" height="14">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAADkAAAA1AAAANwAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAOQAAADUAAAA2AAAAAAAAADgAAAABAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAA4AAAAAQAAAAAAAAAAAAAAAAAAACwAAAAsAAAAAAAAACwAAAAsAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAOAAAAAEAAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAADUAAAA1AAAANQAAADYAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="roads" width="16" height="14">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAABsAAAAFAAAAAAAAAAUAAAAAAAAABQAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAABQAAAB0AAAAAAAAAAAAAAAAAAAAcAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAFAAAAGwAAADMAAAAbAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAGwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="doors" width="16" height="14">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="points-of-interest" width="16" height="14">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <objectgroup color="#0000ff" name="waypoints">
+  <object id="3" name="worldWaypoint" type="waypoint" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="start"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="6" name="worldWaypoint" type="waypoint" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="7" name="worldWaypoint" type="waypoint" x="191.636" y="112" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="castle"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="8" name="worldWaypoint" type="waypoint" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="mushroom"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="worldWaypoint" type="waypoint" x="128" y="112" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="10" name="worldWaypoint" type="waypoint" x="128" y="144" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="11" name="worldWaypoint" type="waypoint" x="96" y="144" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="12" name="worldWaypoint" type="waypoint" x="64" y="144" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="13" name="worldWaypoint" type="waypoint" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="14" name="worldWaypoint" type="waypoint" x="64" y="80" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="worldWaypoint" type="waypoint" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="castle"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="16" name="worldWaypoint" type="waypoint" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="17" name="worldWaypoint" type="waypoint" x="128" y="48" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="18" name="worldWaypoint" type="waypoint" x="160" y="48" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="19" name="worldWaypoint" type="waypoint" x="192" y="48" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="mushroom"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="true"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="worldWaypoint" type="waypoint" x="192" y="16" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="21" name="worldWaypoint" type="waypoint" x="160" y="16" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="true"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="22" name="worldWaypoint" type="waypoint" x="128" y="16" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="true"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="true"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="worldWaypoint" type="waypoint" x="96" y="16" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="worldWaypoint" type="waypoint" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="world"/>
+    <property name="moveDown" type="bool" value="true"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="false"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="false"/>
+    <property name="moveRightOnComplete" type="bool" value="true"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value="world1-1"/>
+   </properties>
+  </object>
+  <object id="26" name="worldWaypoint" type="waypoint" x="160" y="112" width="16" height="16">
+   <properties>
+    <property name="completed" type="bool" value="false"/>
+    <property name="id" value="coin"/>
+    <property name="moveDown" type="bool" value="false"/>
+    <property name="moveDownOnComplete" type="bool" value="false"/>
+    <property name="moveLeft" type="bool" value="true"/>
+    <property name="moveLeftOnComplete" type="bool" value="false"/>
+    <property name="moveRight" type="bool" value="true"/>
+    <property name="moveRightOnComplete" type="bool" value="false"/>
+    <property name="moveUp" type="bool" value="false"/>
+    <property name="moveUpOnComplete" type="bool" value="false"/>
+    <property name="warp" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#55ff00" name="marioWorldEntity">
+  <object id="1" name="marioWorldEntity" x="32" y="48" width="16" height="16"/>
+ </objectgroup>
+</map>
