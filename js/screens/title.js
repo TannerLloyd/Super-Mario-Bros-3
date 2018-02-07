@@ -2,19 +2,19 @@ game.TitleScreen = me.ScreenObject.extend({
     /**
      *  action to perform on state change
      */
-    onResetEvent: function() {
-        var backgroundImage = new menubar.Sprite(
+    onResetEvent: function () {
+        var backgroundImage = new me.Sprite(
             me.game.viewport.width / 2,
             me.game.viewport.height / 2,
                 image: me.loader.getImage('title-bg'),
             }
         );
 
-        var arrowSprite = new menubar.Sprite(
+        var arrowSprite = new me.Sprite(
             75,
             147, {
                 image: me.loader.getImage('title-arrow'),
-            }
+            } 
         );
 
         //scale to fit with the viewerport size
@@ -32,7 +32,7 @@ game.TitleScreen = me.ScreenObject.extend({
                 this._super(me.Renderable, 'init', [0, 0, me.game.viewport.width, me.game.viewport.height]);
 
                 //font for the scrolling text
-                this.font = new menubar.BitmapFont("8x8_font", 8); 
+                this.font = new me.BitmapFont("8x8_font", 8); 
             },
 
             update: function (dt) {
@@ -48,7 +48,7 @@ game.TitleScreen = me.ScreenObject.extend({
             }
         })), 2); z
 
-        me.input.blindKey(me.input.KEY.ENTER, "start", true);
+        me.input.bindKey(me.input.KEY.ENTER, "start", true);
 
         this.handler = me.event.subscribe(me.event.KEYDOWN,  function (action, keyCode, edge) {
             if (action === "start") {
