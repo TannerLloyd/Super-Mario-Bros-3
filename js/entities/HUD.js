@@ -1,7 +1,6 @@
 /**
  * a HUD container and child items
  */
-
 game.HUD = game.HUD || {};
 
 

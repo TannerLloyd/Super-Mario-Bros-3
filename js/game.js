@@ -1,4 +1,3 @@
-
 /* Game namespace */
 var game = {
 
@@ -17,6 +16,13 @@ var game = {
             return;
         }
 
+        //add "#debug" to the url to enable debug panel
+        if (me.game.HASH.debug === true) {
+            window.onReady(function () {
+                me.plugin.register.defer(this, me.debug.Panel, "debug", me.input.KEY.V);
+            })
+        }
+
         // Initialize the audio.
         me.audio.init("mp3,ogg");
 
@@ -28,7 +34,7 @@ var game = {
     // Run on game resources loaded.
     "loaded" : function () {
         me.state.set(me.state.MENU, new game.TitleScreen());
-        me.state.set(me.state.PLAY, new game.PlayScreen());
+        me.state.set(me.state.WORLD1, new game.World1());
 
         // add our player entity in the entity pool
         me.pool.register("mainPlayer", game.PlayerEntity);

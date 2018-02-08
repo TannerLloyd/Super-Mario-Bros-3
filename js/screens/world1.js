@@ -1,4 +1,4 @@
-game.PlayScreen = me.ScreenObject.extend({
+game.World1 = me.ScreenObject.extend({
     /**
      *  action to perform on state change
      */

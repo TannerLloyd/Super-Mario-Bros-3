@@ -5,10 +5,10 @@ game.TitleScreen = me.ScreenObject.extend({
     onResetEvent: function () {
         var backgroundImage = new me.Sprite(
             me.game.viewport.width / 2,
-            me.game.viewport.height / 2,
+            me.game.viewport.height / 2, {
                 image: me.loader.getImage('title-bg'),
             }
-        );
+        )
 
         var arrowSprite = new me.Sprite(
             75,
@@ -50,17 +50,17 @@ game.TitleScreen = me.ScreenObject.extend({
 
         me.input.bindKey(me.input.KEY.ENTER, "start", true);
 
-        this.handler = me.event.subscribe(me.event.KEYDOWN,  function (action, keyCode, edge) {
+        this.handler = me.event.subscribe(me.event.KEYDOWN, function (action, keyCode, edge) {
             if (action === "start") {
                 if (game.marioData.currentWorld != null && game.marioData.currentWorld != "" && game.marioData.lives != null && game.marioData.lives > 0) {
-                    me.state.change(me.state.WORLD, game.marioData.currentWorld);
+                    me.state.change(me.state.WORLD1, game.marioData.currentWorld);
                 }
                 else {
                     game.marioData.lives = 3;
                     game.marioData.worldPos = null; //in case a position was set
                     game.marioData.worlds = []; //reset world save data
                     me.save.marioData = game.marioData;
-                    me.state.change(me.state.WORLD, "world1");
+                    me.state.change(me.state.WORLD1, "world1");
                 }
             }
         });
